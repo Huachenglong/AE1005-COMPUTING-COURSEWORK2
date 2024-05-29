@@ -1,0 +1,3 @@
+function doc_temp_prediction
+sprintf('In the third task, the state of LED light should be controlled according to the change rate of temperature. When the change rate is greater than 4 degrees Celsius per minute, the red light will light up. When the rate of change is less than -4 degrees Celsius per minute, the yellow light is on; When the rate of change is between -4 and 4 degrees Celsius per minute, the green light turns on. In order to avoid the rate of change can not reach 4 or -4, we can try to hand heat the thermistor, and then realize the control of the LED lamp.')
+end
