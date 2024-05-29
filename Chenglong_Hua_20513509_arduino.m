@@ -58,14 +58,24 @@ disp(fcontent); %Print the read content in the command window
 
 %% TASK 2 - LED TEMPERATURE MONITORING DEVICE IMPLEMENTATION [25 MARKS]
 
-% Insert answers here
+% In the file of 'temp_monitor.m'
 
 
 %% TASK 3 - ALGORITHMS – TEMPERATURE PREDICTION [25 MARKS]
 
-% Insert answers here
+% In the file of 'temp_prediction.m'
 
 
 %% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
 
-% Insert answers here
+% In Coursework 2, due to it is very difficult to change the temperature of the environment, 
+% for the second test, the state of the three LED lights was controlled by the data of temperature, 
+% and often only one LED lamp could light up in the normal environment temperature. 
+% If you want the other LED lights to turn on, you need to take some measures, 
+% such as heating the thermistor by hand. But I think this is not rigorous. 
+% Fortunately, we simply express the temperature range in terms of the LED lamp state, which provides a reasonable range of accuracy. 
+% For example, in the third task, it is necessary to control the state of LED lights according to the change rate of temperature.
+% Because in the general environment, the change of temperature is difficult to reach 4 degrees Celsius per minute, 
+% which also makes it difficult to verify the control effect of red LED lights and green LED lights. 
+% Therefore, my suggestion is to replace the thermoreceptor, which is more sensitive to temperature,
+% so that the status of all three LEDs can be detected more easily.
